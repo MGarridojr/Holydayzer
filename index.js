@@ -2,8 +2,6 @@ import express from 'express';
 import cors from 'cors';
 
 const hoje = new Date();
-console.log(hoje.toLocaleDateString('en-US')); 
-
 const holidays = [
     { date: "1/1/2022", name: "Confraternização mundial" },
     { date: "1/3/2022", name: "Carnaval" },
